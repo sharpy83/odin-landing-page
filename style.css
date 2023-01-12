@@ -9,23 +9,30 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-#header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
 .first-section {
-    background-color: #1f2937;
+    background-color: #1f2937;;
 }
 
 
 .header-link {
     font-size: 18px;
    color:  #e5e7eb;
+   padding: 20px;
+}
+
+.p-first{
+    font-size: 18px;
+    color:  #e5e7eb; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar {
+
+    position: top;
     display: flex;
     flex-direction: row;
+
 }
 
 ul {
@@ -42,5 +49,47 @@ align-items: center;
 }
 .logo {
     width: 200px;
-    height: 200px;
+    height: 85px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+
+}
+
+.content {
+    display: flex;
+    flex-direction:row;
+    margin: 50px;
+
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 0;
+    
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 200px;
+}
+img {
+   margin-bottom: 50px; 
+}
+
+.sign-up-first {
+    background-color: #3882f6;  
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px #3882f6;
+  border-radius: 10px;
 }
