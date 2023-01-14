@@ -128,3 +128,32 @@ margin: 100px;
     text-align: center;
     font-size: 18px;
 }
+
+.third-section {
+background-color: #e5e7eb;
+height: 500px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+h3 {
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+color: #1f2937;   
+text-align: center;
+}
+
+.p-third {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#p-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 550px;
+}
